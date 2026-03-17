@@ -40,3 +40,36 @@ header .menu_container .logo{
     color: #fff;
     text-decoration: none;
 }
+.hero_area{
+    display: flex;
+}
+.hero_area .left_hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 60vh;
+    background: #000;
+    color: #fff;
+}
+.hero_area .left_hero h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    text-shadow: 3px 3px 33px aqua;
+}
+.hero_area .left_hero span.blue{
+    color: #00cccc;
+    padding: 0 9px;
+}
+.hero_area .left_hero p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 16px;
+    margin-top: 9px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
