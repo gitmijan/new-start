@@ -84,3 +84,14 @@ header .menu_container .logo{
     background-position: center center;
     background-size: cover;
 }
+/* =========== About Section Start Here =========== */
+.about_area{
+    background-color: #000;
+}
+.about_area h2{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+/* =========== About Section End Here =========== */
