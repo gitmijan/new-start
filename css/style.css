@@ -8,6 +8,8 @@ header{
     background-color: black;
     color: aliceblue;
     font-family: sans-serif;
+    position: sticky;
+    top: 0;
 }
 header h2{
     font-size: 54px;
@@ -87,11 +89,44 @@ header .menu_container .logo{
 /* =========== About Section Start Here =========== */
 .about_area{
     background-color: #000;
+    color: #fff;
 }
 .about_area h2{
     color: #fff;
     text-align: center;
     text-transform: uppercase;
     font-weight: 700;
+    padding: 16px 0 19px;
+}
+.about_area .about_container{
+    display: flex;
+    justify-content: space-around;
+}
+.academic_about,.basic_about{
+    width: 40vw;
+    border: 1px solid #00cccc;
+    border-radius: 9px;
+    margin-bottom: 6px;
+}
+.academic_about h3,.basic_about h3{
+    font-family:tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 6px;
+}
+.about_title{
+    font-family:tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 3px auto;
+    padding-top: 3px;
+}
+.about_description{
+    margin: 3px 0;
+    font-family: tahoma, sans-serif;
+    line-height: 19px;
+    padding: 3px;
 }
 /* =========== About Section End Here =========== */
