@@ -1,55 +1,65 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 /* ============ Header Style Start ============== */
-header{
+header {
     background-color: black;
     color: aliceblue;
     font-family: sans-serif;
     position: sticky;
     top: 0;
 }
-header h2{
+
+header h2 {
     font-size: 54px;
     font-weight: 600;
     text-align: center;
     text-transform: uppercase;
 }
-header .menu_container{
+
+header .menu_container {
     display: flex;
     justify-content: space-between;
     font-size: 2rem;
 }
-header .menu_container .logo{
+
+header .menu_container .logo {
     text-transform: uppercase;
 }
-.nav_bar ul{
+
+.nav_bar ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-.nav_bar ul li{
+
+.nav_bar ul li {
     display: inline-block;
     padding: 3px;
     border: 1px dashed #333;
     transition: all 3s;
 }
-.nav_bar ul li:hover{
+
+.nav_bar ul li:hover {
     background-color: transparent;
 }
-.nav_bar ul li a{
+
+.nav_bar ul li a {
     color: #fff;
     text-decoration: none;
 }
+
 /* ============= Header Style End ============== */
 
 /* ============= Hero Style Start ============== */
-.hero_area{
+.hero_area {
     display: flex;
 }
-.hero_area .left_hero{
+
+.hero_area .left_hero {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,18 +68,21 @@ header .menu_container .logo{
     background: #000;
     color: #fff;
 }
-.hero_area .left_hero h3{
+
+.hero_area .left_hero h3 {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2rem;
     text-shadow: 3px 3px 33px aqua;
 }
-.hero_area .left_hero span.blue{
+
+.hero_area .left_hero span.blue {
     color: #00cccc;
     padding: 0 9px;
 }
-.hero_area .left_hero p{
+
+.hero_area .left_hero p {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,54 +92,82 @@ header .menu_container .logo{
     font-size: 1.4rem;
     font-weight: 500;
 }
-.hero_area .right_hero{
+
+.hero_area .right_hero {
     width: 50vw;
     height: 90vh;
     background-image: url('../images/junayet_sikder.png');
     background-position: center center;
     background-size: cover;
 }
+
+/* =========== Hero  Style   End Here   =========== */
 /* =========== About Section Start Here =========== */
-.about_area{
+.about_area {
     background-color: #000;
     color: #fff;
 }
-.about_area h2{
+
+.about_area h2 {
     color: #fff;
     text-align: center;
     text-transform: uppercase;
     font-weight: 700;
     padding: 16px 0 19px;
+    font-family: tahoma, sans-serif;
 }
-.about_area .about_container{
+
+.about_area .about_container {
     display: flex;
     justify-content: space-around;
 }
-.academic_about,.basic_about{
+
+.academic_about,
+.basic_about {
     width: 40vw;
     border: 1px solid #00cccc;
     border-radius: 9px;
     margin-bottom: 6px;
 }
-.academic_about h3,.basic_about h3{
-    font-family:tahoma, sans-serif;
+
+.academic_about h3,
+.basic_about h3 {
+    font-family: tahoma, sans-serif;
     font-weight: 500;
     font-size: 1.6rem;
     text-align: center;
     margin-top: 6px;
 }
-.about_title{
-    font-family:tahoma, sans-serif;
+
+.about_title {
+    font-family: tahoma, sans-serif;
     font-weight: 400;
     font-size: 1.3rem;
     text-align: center;
     margin: 3px auto;
     padding-top: 3px;
 }
-.about_description{
+
+.about_description {
     margin: 3px 0;
     font-family: tahoma, sans-serif;
     line-height: 19px;
     padding: 3px;
 }
+
 /* =========== About Section End Here =========== */
+/* =========== Skill Section End Here =========== */
+.skill_section {
+    background: #000;
+    color: #fff;
+}
+
+.skill_section h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: tahoma, sans-serif;
+    font-weight: 700;
+    padding: 16px 0 19px;
+}
+
+/* =========== Skill Section End Here =========== */
