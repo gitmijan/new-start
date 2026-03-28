@@ -167,7 +167,34 @@ header .menu_container .logo {
     text-transform: uppercase;
     font-family: tahoma, sans-serif;
     font-weight: 700;
-    padding: 16px 0 19px;
+    padding: 27px 0 9px;
 }
-
+.current_skill h3{
+    text-align: center;
+    text-transform: capitalize;
+    margin: 9px 0;
+    font-family: tahoma, sans-serif;
+}
+.current_skill .current_skill_container, .current_skill .upcoming_skill_contianer{
+    display: flex;
+    gap: 6px;
+    justify-content: space-around;
+    margin: 0 9px;
+}
+.current_skill .current_skill_container > div, .current_skill .upcoming_skill_contianer > div{
+    border: 1px solid teal;
+    border-radius: 9px;
+    padding: 9px;
+    margin-bottom: 9px;
+    flex: 1;
+}
+.current_skill .current_skill_container > div > h4, .current_skill .upcoming_skill_contianer > div > h4{
+    font-family: tahoma, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 6px;
+}
+.current_skill .current_skill_container > div > p, .current_skill .upcoming_skill_contianer > div > p{
+    line-height: 1.3rem;
+}
 /* =========== Skill Section End Here =========== */
