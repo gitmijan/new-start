@@ -103,12 +103,17 @@ header .menu_container .logo {
 
 /* =========== Hero  Style   End Here   =========== */
 /* =========== About Section Start Here =========== */
-.about_area {
+.about_area,
+.skill_section,
+.contact_section {
     background-color: #000;
     color: #fff;
+    min-height: 50vh;
 }
 
-.about_area h2 {
+.about_area h2,
+.skill_section h2,
+.contact_section h2 {
     color: #fff;
     text-align: center;
     text-transform: uppercase;
@@ -157,44 +162,72 @@ header .menu_container .logo {
 
 /* =========== About Section End Here =========== */
 /* =========== Skill Section End Here =========== */
-.skill_section {
-    background: #000;
-    color: #fff;
-}
-
-.skill_section h2 {
-    text-align: center;
-    text-transform: uppercase;
-    font-family: tahoma, sans-serif;
-    font-weight: 700;
-    padding: 27px 0 9px;
-}
-.current_skill h3{
+.current_skill h3 {
     text-align: center;
     text-transform: capitalize;
     margin: 9px 0;
     font-family: tahoma, sans-serif;
 }
-.current_skill .current_skill_container, .current_skill .upcoming_skill_contianer{
+
+.current_skill .current_skill_container,
+.current_skill .upcoming_skill_contianer {
     display: flex;
     gap: 6px;
     justify-content: space-around;
     margin: 0 9px;
 }
-.current_skill .current_skill_container > div, .current_skill .upcoming_skill_contianer > div{
+
+.current_skill .current_skill_container>div,
+.current_skill .upcoming_skill_contianer>div {
     border: 1px solid teal;
     border-radius: 9px;
     padding: 9px;
     margin-bottom: 9px;
     flex: 1;
 }
-.current_skill .current_skill_container > div > h4, .current_skill .upcoming_skill_contianer > div > h4{
+
+.current_skill .current_skill_container>div>h4,
+.current_skill .upcoming_skill_contianer>div>h4 {
     font-family: tahoma, sans-serif;
     text-align: center;
     text-transform: uppercase;
     padding-bottom: 6px;
 }
-.current_skill .current_skill_container > div > p, .current_skill .upcoming_skill_contianer > div > p{
+
+.current_skill .current_skill_container>div>p,
+.current_skill .upcoming_skill_contianer>div>p {
     line-height: 1.3rem;
 }
+
 /* =========== Skill Section End Here =========== */
+/* =========== Contact Section Start Here =========== */
+.form_container{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 21px;
+}
+
+.form_container form{
+    padding: 12px;
+    border: 2px solid turquoise;
+    border-radius: 6px;
+}
+.form_container form label,
+.form_container form input
+{
+    display: block;
+    padding: 12px;
+    width: 90%;
+    margin: 0.5rem auto;
+}
+.form_container form input:focus
+{
+    outline: none;
+}
+.form_container form input.submit
+{
+    margin-top: 18px;
+    background: turquoise;
+    cursor: pointer;
+}
+/* =========== Contact Section End Here =========== */
